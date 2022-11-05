@@ -24,12 +24,12 @@ func fizzbuzz(i int) string {
 	}
 
 	if i%5 == 0 {
-		result = "Buzz"
+		result += "Buzz"
 	}
 
-	if i%3 == 0 && i%5 == 0 {
-		result = "Fizz Buzz"
-	}
+	// if i%3 == 0 && i%5 == 0 {
+	// 	result = "Fizz Buzz"
+	// }
 
 	if len(result) == 0 {
 		result = istr

@@ -31,7 +31,7 @@ func TestFizzBuzz_4(t *testing.T) {
 
 func TestFizzBuzz_15(t *testing.T) {
 	got := fizzbuzz(15)
-	want := "Fizz Buzz"
+	want := "FizzBuzz"
 
 	if got != want {
 		t.Errorf("fizzbuzz(15) \n got: %v \n want: \n%v", got, want)
